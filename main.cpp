@@ -39,7 +39,7 @@ int main(){
         if(userWeekHr > 40)
         {
             cout << "WARNING THE HOURS YOU ENTERED ARE OVER 40, THIS WILL RESULT IN OVERTIME PAY." << endl;
-            cout << "Do you want to continue? ";
+            cout << "Do you want to continue? (type either 'y' or 'n') ";
             cin >> choice;
                 if(choice == 'y'){
 
